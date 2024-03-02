@@ -1,4 +1,4 @@
-package com.leet.amazon;
+package com.backtracking;
 
 /**
  * https://leetcode.com/problems/word-search/
@@ -10,7 +10,7 @@ package com.leet.amazon;
  * Memory: 42.7 MB, less than 26.64% of Java online submissions for Word Search.
  */
 
-public class MediumWordSearch {
+public class WordSearch {
 
     public final static void main(String[] args) {
 
@@ -20,7 +20,7 @@ public class MediumWordSearch {
                 {'A', 'D', 'E', 'E'}
         };
         String word = "ABCCED";
-        MediumWordSearch me = new MediumWordSearch();
+        WordSearch me = new WordSearch();
         System.out.println( me.exist(board, word) ); // true
 
     }
@@ -69,7 +69,7 @@ public class MediumWordSearch {
         if (search(board, i, j+1, word.substring(1)))
             return true;
 
-        board[i][j] = c; // revoke mark
+        board[i][j] = c; // backtrack to original value
 
         return false;
     }

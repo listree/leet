@@ -1,4 +1,4 @@
-package com.leet.amazon;
+package com.backtracking;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ import java.util.*;
  * Runtime: 3 ms, faster than 51.00% of Java online submissions for Letter Combinations of a Phone Number.
  * Memory: 42.6 MB, less than 69.76% of Java online submissions for Letter Combinations of a Phone Number.
  */
-public class MediumLetterCombo {
+public class PhoneNumber {
 
     public List<String> letterCombinations(String digits) {
         HashMap<Character, Set<Character>> map = new HashMap<Character, Set<Character>>();

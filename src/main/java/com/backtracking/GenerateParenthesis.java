@@ -1,4 +1,4 @@
-package com.leet.amazon;
+package com.backtracking;
 
 import java.util.*;
 
@@ -9,11 +9,11 @@ import java.util.*;
  * Runtime: 17 ms, faster than 7.86% of Java online submissions for Generate Parentheses.
  * Memory: 43.7 MB, less than 49.34% of Java online submissions for Generate Parentheses.
  */
-public class MediumGenerateParenthesis {
+public class GenerateParenthesis {
 
     public final static void main(String[] args) {
-        MediumGenerateParenthesis me = new MediumGenerateParenthesis();
-        System.out.println( me.generateParenthesis(3));
+        GenerateParenthesis generateParenthesis = new GenerateParenthesis();
+        System.out.println( generateParenthesis.generateParenthesis(3));
 
     }
 
@@ -47,7 +47,6 @@ public class MediumGenerateParenthesis {
         }
 
         for(int i = 0 ; i < n; i++) {
-            //System.out.println( n + " - " + i + " - " + (n-i-1));
 
             Set<String> xSet = genSet(i);
             Set<String> ySet = genSet(n-i-1);
