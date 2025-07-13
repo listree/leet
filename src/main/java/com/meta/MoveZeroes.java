@@ -1,4 +1,4 @@
-package com.leet.facebook;
+package com.meta;
 
 /**
  * https://leetcode.com/problems/move-zeroes/

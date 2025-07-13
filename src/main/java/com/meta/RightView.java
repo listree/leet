@@ -1,9 +1,8 @@
-package com.leet.facebook;
+package com.meta;
 
 import java.util.*;
 
 import com.leet.TreeNode;
-import com.leet.*;
 
 /**
  * https://leetcode.com/problems/binary-tree-right-side-view/
