@@ -15,6 +15,7 @@ import java.util.Queue;
  * All the adjacent cells of the path are 8-directionally connected (i.e., they are different and they share an edge or a corner).
  * The length of a clear path is the number of visited cells of this path.
  * Runtime 37 ms Beats 8.64%
+ * Memory 45.61 MB Beats 54.31%
  */
 public class ShortestPathBinaryMatrix {
     public final static void main(String[] args) {

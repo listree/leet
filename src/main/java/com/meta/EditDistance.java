@@ -10,6 +10,8 @@ package com.meta;
  * Replace a character
  * 0 <= word1.length, word2.length <= 500
  * word1 and word2 consist of lowercase English letters.
+ * Runtime 19ms Beats 5.24%
+ * Memory 46.84MB Beats 6.86%
  */
 public class EditDistance {
 
